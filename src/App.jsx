@@ -7,10 +7,21 @@ import Video from "./components/Video";
 function App() {
   const [count, setCount] = useState(0);
 
+  const style = {
+    background: "#784834",
+    padding:'100px',
+    borderRadius:"10px"
+
+  };
+
   return (
     <>
-      <h2 className="text-2xl my-10">Video Player </h2>
-      <Video />
+      <h2 className="text-2xl my-7">Video Player </h2>
+
+      <div style={style} >
+        <Video />
+      </div>
+    
     </>
   );
 }

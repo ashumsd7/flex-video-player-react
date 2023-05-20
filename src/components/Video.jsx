@@ -17,7 +17,7 @@ function Video() {
 
       {/* custom-controls */}
 
-      <div className="absolute bg-gradient-to-t from-black gap-2 to-transparent shadow-lg bottom-1 z-10 left-0 w-full  h-16 px-6 py-2 flex flex-col items-center ">
+      <div className="absolute bg-gradient-to-t from-black gap-2 to-transparent shadow-2xl bottom-0 z-10 left-0 w-full  h-16 px-6 py-2 flex flex-col items-center ">
         <div className="bg-blue-500 h-1 w-full rounded-full"></div>
         {/* down controls */}
         <div className="flex justify-between w-full ">
